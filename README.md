@@ -3,7 +3,7 @@
 
 
 ## Download
-The dataset can be downloaded from Zenodo at [doi.org/10.5281/zenodo.15124906](doi.org/10.5281/zenodo.15124906)
+The dataset can be downloaded from Zenodo at [doi.org/10.5281/zenodo.15124905](https://doi.org/10.5281/zenodo.15124905)
 
 
 ## License
