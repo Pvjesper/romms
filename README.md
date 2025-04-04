@@ -1,10 +1,10 @@
 # Rotating Moving Microphone Sound field (RoMMS) dataset
-
-The dataset can be downloaded from Zenodo at [doi.org/10.5281/zenodo.15124906](doi.org/10.5281/zenodo.15124906)
 ## Description
 
 
 ## Download
+The dataset can be downloaded from Zenodo at [doi.org/10.5281/zenodo.15124906](doi.org/10.5281/zenodo.15124906)
+
 
 ## License
 The dataset is available under [Creative Commons 4.0 Attribution License](LICENSE)
