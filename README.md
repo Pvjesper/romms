@@ -2,8 +2,11 @@
 ## Description
 The dataset is intended to be used for evaluation sound field estimation methods using moving microphones. The dataset consists of sound field measurements made with 60 stationary microphones on a square grid, and two moving microphones moving along concentric circles around the square grid. The sound field measurements consists of simultaneously recorded microphone signals, loudspeaker signals and positions of the microphones. 
 
-<img src="https://github.com/user-attachments/assets/951e283b-c37e-47a6-97a6-560b924385e4" height="240" alt="Stationary microphone array">
-<img src="https://github.com/user-attachments/assets/683acb43-60f0-4c0f-9d53-0d27c740be0b" height="240" alt="Moving microphones">
+
+<img src="https://github.com/user-attachments/assets/651d0454-7811-40e0-b13f-844cf588dded" height="242" alt="Positions of microphones and loudspeakers">
+<img src="https://github.com/user-attachments/assets/951e283b-c37e-47a6-97a6-560b924385e4" height="242" alt="Stationary microphone array">
+<img src="https://github.com/user-attachments/assets/683acb43-60f0-4c0f-9d53-0d27c740be0b" height="242" alt="Moving microphones">
+
 
 
 ## Download
