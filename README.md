@@ -8,8 +8,8 @@ The dataset can be downloaded from Zenodo at [doi.org/10.5281/zenodo.15124905](h
 ## License
 The dataset is available under [Creative Commons 4.0 Attribution License](LICENSE)
 
-## Parameters
-The functions in load_dataset comes with a number of parameters, which represents options available in the dataset. More technical documentation can be found in the docstring. 
+## Usage
+The functions in load_dataset comes with a number of parameters, which represents options available in the dataset. The following is a description of the parameters for load_dataset.load(). The function load_dataset.load_noise() has analogous parameters. More technical documentation regarding data formats and such can be found in the docstring. 
 
 ### room
 `Valid options are "a", "b", "c", "d"`
@@ -22,7 +22,7 @@ listed from most to fewest acoustic panels, hence from shortest to longest rever
 `Valid options are 500, 1000`
 
 The period of the periodic sweep should be chosen as equal length or longer than the room impulse response (RIR), otherwise a wraparound error is incurred. Recordings were made using a period length of 500 ms as well as 1000 ms. Considering the reverberation time, a period length of 1000 ms appears clearly sufficient, while
-500 ms could incur a small error. However, because the RIRs will have decayed close to 60 dB after 500 ms, high signal-to-noise ratio (SNR) is required for the error to be significant.
+500 ms could incur a small error. However, because the RIRs will have decayed close to 60 dB after 500 ms, unless a very high signal-to-noise ratio is achieved, the additional error is likely negligible.
 
 ### max_freq
 `Valid options are 500, 1000, 2000, 4000`
