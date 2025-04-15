@@ -2,11 +2,28 @@
 ## Description
 The dataset is intended to be used for evaluation sound field estimation methods using moving microphones. The dataset consists of sound field measurements made with 60 stationary microphones on a square grid, and two moving microphones moving along concentric circles around the square grid. The sound field measurements consists of simultaneously recorded microphone signals, loudspeaker signals and positions of the microphones. 
 
+<img src="https://github.com/user-attachments/assets/951e283b-c37e-47a6-97a6-560b924385e4" height="240" alt="Stationary microphone array">
+<img src="https://github.com/user-attachments/assets/683acb43-60f0-4c0f-9d53-0d27c740be0b" height="240" alt="Moving microphones">
+
+
 ## Download
 The dataset can be downloaded from Zenodo at [doi.org/10.5281/zenodo.15124905](https://doi.org/10.5281/zenodo.15124905)
 
 ## License
 The dataset is available under [Creative Commons 4.0 Attribution License](LICENSE)
+
+If you use the dataset in your research, please cite the following paper.\
+**Experimental validation of sound field estimation methods using moving microphones**\
+*J. Brunnström, M. B. Møller, T. van Waterschoot, M. Moonen, and J. Østergaard*
+```
+@inproceedings{brunnstromExperimental2025,
+  title={Experimental validation of sound field estimation methods using moving microphones}, 
+  author={Brunnström, Jesper and Møller, Martin Bo and van Waterschoot, Toon and Moonen, Marc and Østergaard, Jan},
+  year = {submitted},
+  langid = {english},
+  booktitle = {Proceedings of Forum Acusticum},
+}
+```
 
 ## Usage
 The functions in load_dataset comes with a number of parameters, which represents options available in the dataset. The following is a description of the parameters for load_dataset.load(). The function load_dataset.load_noise() has analogous parameters. More technical documentation regarding data formats and such can be found in the docstring. 
@@ -66,4 +83,19 @@ The parameter should point to the location on your computer where the RoMMS data
 
 ## Details
 ![rir_time_animation](https://github.com/user-attachments/assets/f17b02c8-61a3-4590-9921-6b8193d13b69)
+
+
+### Room near end 
+<img src="https://github.com/user-attachments/assets/aafbcba0-9f9c-4cef-b80d-f2595decac35" height="200">
+<img src="https://github.com/user-attachments/assets/2bb4b850-ef92-403b-9c9c-732344f2117a" height="200">
+
+### Room far end
+<img src="https://github.com/user-attachments/assets/ef842646-f9a4-4450-9c55-5b4b0522c41d" height="200">
+<img src="https://github.com/user-attachments/assets/d7d4961a-3f7f-4832-8671-66aa33cf0592" height="200">
+<img src="https://github.com/user-attachments/assets/3edfd384-71a2-4af6-b950-f3b078d8ec8a" height="200">
+
+
+
+
+
 
