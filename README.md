@@ -62,12 +62,12 @@ The periodic sweep signal has no energy above max_freq, hence there is rarely a 
 ### alt_array
 `Valid options are True, False`
 
-The stationary array is recorded for room B, C and D in an addition location, which is the original position shifted -1 meter along the x-axis. If True, the measurements from the alternative position is returned for the stationary microphones. 
+The stationary array is recorded for room B, C and D in an additional location, which is the position shifted -1 meter along the x-axis from the original position. If True, the measurements from the alternative position is returned for the stationary microphones. 
 
 ### dataset_folder
 `Valid options are a string or pathlib.Path`
 
-The parameter should point to the location on your computer where the RoMMS dataset downloaded from Zenodo is placed. In the example given below, the dataset_folder parameter should be given as "path/to/parent/folder/romms_dataset". 
+The parameter should be the path to where the RoMMS dataset downloaded from Zenodo is placed. In the example given below, the dataset_folder parameter should be given as "path/to/parent/folder/romms_dataset". 
 ```bash
 └── path/to/parent/folder
     └── romms_dataset
