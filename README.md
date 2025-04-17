@@ -1,6 +1,6 @@
 # Rotating Moving Microphone Sound field (RoMMS) dataset
 ## Description
-The dataset is intended to be used for evaluation sound field estimation methods using moving microphones. The dataset consists of sound field measurements made with 60 stationary microphones on a rectangular grid, and two moving microphones moving along concentric circles around the grid. The sound field measurements consists of simultaneously recorded microphone signals, loudspeaker signals and positions of the microphones. 
+The dataset is intended to be used for evaluation of sound field estimation methods using moving microphones. The dataset consists of sound field measurements made with 60 stationary microphones on a rectangular grid, and two moving microphones moving along concentric circles. The dataset consists of simultaneously recorded microphone signals, loudspeaker signals and positions of the microphones. 
 
 
 <img src="https://github.com/user-attachments/assets/651d0454-7811-40e0-b13f-844cf588dded" height="180" alt="Positions of microphones and loudspeakers">
