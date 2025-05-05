@@ -22,7 +22,8 @@ If you use the dataset in your research, please cite the following paper.\
 @inproceedings{brunnstromExperimental2025,
   title={Experimental validation of sound field estimation methods using moving microphones}, 
   author={Brunnström, Jesper and Møller, Martin Bo and van Waterschoot, Toon and Moonen, Marc and Østergaard, Jan},
-  year = {submitted},
+  year = {2025},
+  month = june, 
   langid = {english},
   booktitle = {Proceedings of Forum Acusticum},
 }
