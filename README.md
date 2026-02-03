@@ -31,7 +31,7 @@ If you use the dataset in your research, please cite the following paper.\
 
 ## Usage
 The data in the dataset can be loaded using the following code snippet
-```
+```python
 import load_dataset as ld
 DATAFOLDER = "c:/path/to/romms_dataset"
 info, pos, signals, rir = ld.load(room="a", seq_len_ms=500, max_freq=2000, speed = "slow", downsampled = True, alt_array=False, dataset_folder=DATAFOLDER)
