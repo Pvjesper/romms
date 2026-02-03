@@ -202,9 +202,8 @@ def load_noise(room="a",
     return info, pos, signals
 
 
-def plot_pos(info, pos):
+def plot_pos(info, pos, show = True):
     fig, ax = plt.subplots(1,1, figsize = (12,9))
-    fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
 
     ax.scatter(pos["mic"][:,0], pos["mic"][:,1], marker="o", label = "Microphone array", edgecolors="black")
     for i in range(pos["mic"].shape[0]):
@@ -212,7 +211,6 @@ def plot_pos(info, pos):
 
     ax.scatter(pos["loudspeaker"][:,0], pos["loudspeaker"][:,1], marker="s", label = "Loudspeaker", edgecolors="black")
 
-    
     if "mic_moving" in pos:
         num_periods = pos["mic_moving"].shape[1] // info["seq_len"]
         clr_map_values = np.linspace(0, 1, num_periods)
@@ -234,7 +232,8 @@ def plot_pos(info, pos):
     ax.legend()
     ax.axis("equal")
 
-    plt.show()
+    if show:
+        plt.show()
 
 if __name__ == "__main__":
     info, pos, array_data, rir_data = load(room="a",seq_len_ms=500, max_freq=1000, downsampled = True, dataset_folder=DEFAULT_DATASET_FOLDER)
