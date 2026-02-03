@@ -1,9 +1,12 @@
 # Rotating Moving Microphone Sound field (RoMMS) dataset
 ## Description
-The dataset is intended to be used for evaluation sound field estimation methods using moving microphones. The dataset consists of sound field measurements made with 60 stationary microphones on a square grid, and two moving microphones moving along concentric circles around the square grid. The sound field measurements consists of simultaneously recorded microphone signals, loudspeaker signals and positions of the microphones. 
+The dataset is intended to be used for evaluation of sound field estimation methods using moving microphones. The dataset consists of sound field measurements made with 60 stationary microphones on a rectangular grid, and two moving microphones moving along concentric circles. The dataset consists of simultaneously recorded microphone signals, loudspeaker signals and positions of the microphones. 
 
-<img src="https://github.com/user-attachments/assets/951e283b-c37e-47a6-97a6-560b924385e4" height="240" alt="Stationary microphone array">
-<img src="https://github.com/user-attachments/assets/683acb43-60f0-4c0f-9d53-0d27c740be0b" height="240" alt="Moving microphones">
+
+<img src="https://github.com/user-attachments/assets/651d0454-7811-40e0-b13f-844cf588dded" height="180" alt="Positions of microphones and loudspeakers">
+<img src="https://github.com/user-attachments/assets/951e283b-c37e-47a6-97a6-560b924385e4" height="180" alt="Stationary microphone array">
+<img src="https://github.com/user-attachments/assets/683acb43-60f0-4c0f-9d53-0d27c740be0b" height="180" alt="Moving microphones">
+
 
 
 ## Download
@@ -19,7 +22,8 @@ If you use the dataset in your research, please cite the following paper.\
 @inproceedings{brunnstromExperimental2025,
   title={Experimental validation of sound field estimation methods using moving microphones}, 
   author={Brunnström, Jesper and Møller, Martin Bo and van Waterschoot, Toon and Moonen, Marc and Østergaard, Jan},
-  year = {submitted},
+  year = {2025},
+  month = june, 
   langid = {english},
   booktitle = {Proceedings of Forum Acusticum},
 }
@@ -59,12 +63,12 @@ The periodic sweep signal has no energy above max_freq, hence there is rarely a 
 ### alt_array
 `Valid options are True, False`
 
-The stationary array is recorded for room B, C and D in an addition location, which is the original position shifted -1 meter along the x-axis. If True, the measurements from the alternative position is returned for the stationary microphones. 
+The stationary array is recorded for room B, C and D in an additional location, which is the position shifted -1 meter along the x-axis from the original position. If True, the measurements from the alternative position is returned for the stationary microphones. 
 
 ### dataset_folder
 `Valid options are a string or pathlib.Path`
 
-The parameter should point to the location on your computer where the RoMMS dataset downloaded from Zenodo is placed. In the example given below, the dataset_folder parameter should be given as "path/to/parent/folder/romms_dataset". 
+The parameter should be the path to where the RoMMS dataset downloaded from Zenodo is placed. In the example given below, the dataset_folder parameter should be given as "path/to/parent/folder/romms_dataset". 
 ```bash
 └── path/to/parent/folder
     └── romms_dataset
