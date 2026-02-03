@@ -5,7 +5,7 @@ import json
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
-DEFAULT_DATASET_FOLDER = pathlib.Path(__file__).parent.parent / "dataset"
+DEFAULT_DATASET_FOLDER = pathlib.Path(__file__).parent.parent / "romms_dataset"
 
 def load(room="a",
         seq_len_ms=500,
