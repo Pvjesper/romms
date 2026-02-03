@@ -30,6 +30,13 @@ If you use the dataset in your research, please cite the following paper.\
 ```
 
 ## Usage
+The data in the dataset can be loaded using the following code snippet
+```
+import load_dataset as ld
+DATAFOLDER = "c:/path/to/romms_dataset"
+info, pos, signals, rir = ld.load(room="a", seq_len_ms=500, max_freq=2000, speed = "slow", downsampled = True, alt_array=False, dataset_folder=DATAFOLDER)
+```
+
 The functions in load_dataset comes with a number of parameters, which represents options available in the dataset. The following is a description of the parameters for load_dataset.load(). The function load_dataset.load_noise() has analogous parameters. More technical documentation regarding data formats and such can be found in the docstring. 
 
 ### room
@@ -85,9 +92,8 @@ The parameter should be the path to where the RoMMS dataset downloaded from Zeno
         └── rec_info.json
 ```
 
-## Details
+## Media
 ![rir_time_animation](https://github.com/user-attachments/assets/f17b02c8-61a3-4590-9921-6b8193d13b69)
-
 
 ### Room near end 
 <img src="https://github.com/user-attachments/assets/aafbcba0-9f9c-4cef-b80d-f2595decac35" height="200">
