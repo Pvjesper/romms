@@ -15,10 +15,10 @@ The dataset can be downloaded from Zenodo at [doi.org/10.5281/zenodo.15124905](h
 ## License
 The dataset is available under [Creative Commons 4.0 Attribution License](LICENSE)
 
-If you use the dataset in your research, please cite the following paper.\
+If you use the dataset in your research, please cite the following paper. [Link to paper](https://dael.euracoustics.org/confs/fa2025/data/articles/000379.pdf)\
 **Experimental validation of sound field estimation methods using moving microphones**\
 *J. Brunnström, M. B. Møller, T. van Waterschoot, M. Moonen, and J. Østergaard*
-[Link to paper](https://dael.euracoustics.org/confs/fa2025/data/articles/000379.pdf)
+
 ```
 @inproceedings{brunnstromExperimental2025,
   title={Experimental validation of sound field estimation methods using moving microphones}, 
